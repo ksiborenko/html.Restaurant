@@ -50,6 +50,7 @@ h1 {
     text-decoration: none;
     border-radius: 200px;
     border: 1px solid #e67e22;
+    transition: background-color 0.3s;
 
 }
 
@@ -67,4 +68,14 @@ h1 {
 .btn:hover,
 .btn:active {
     background-color: #cf6d17;
+}
+
+.btn-full:hover,
+.btn-full:active {
+    background-color: #cf6d17;
+}
+
+.btn-ghost:hover,
+.btn-ghost:active {
+    color: #fff;
 }
